@@ -35,7 +35,7 @@ const Task = () => {
             </span>
           </div>
           <div className="my-2 bg-white rounded-lg flex justify-between px-4 items-center cursor-pointer">
-            <h1 className="py-5 flex items-center gap-2 text-xl font-bold ">
+            <h1 className="py-5 flex items-center  gap-4 md:gap-2 text-xl font-bold ">
               <BsCheckCircleFill className="text-gray-400" size={30} /> Task 2
             </h1>
             <span className="text-xl font-bold inline-flex gap-2 items-center text-gray-500">

@@ -3,7 +3,7 @@ import React from "react";
 const Main = () => {
   return (
     <div className=" py-5 my-5 md:m-10 bg-white/10 rounded-md">
-      <ul className=" flex flex-row gap-2 justify-center md:gap-5 px-2  md:text-lg text-md font-semibold ">
+      <ul className=" flex flex-row gap-4 justify-center md:gap-5 px-2  md:text-lg text-md font-semibold ">
         <li className="bg-black/20 px-2 py-1 rounded-md cursor-pointer">
           Pomodoro
         </li>
