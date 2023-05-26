@@ -7,11 +7,11 @@ import { FaUserCircle } from "react-icons/fa";
 const Navbar = () => {
   return (
     <div className="w-full flex flex-row justify-between py-4">
-      <div className="flex flex-row gap-1 items-center text-2xl font-semibold cursor-pointer">
+      <div className="flex flex-row gap-2 items-center text-2xl font-semibold cursor-pointer">
         <BsCheckCircleFill size={20} />
         <h1 className="">Pomofocus</h1>
       </div>
-      <ul className="flex flex-row gap-3 justify-between items-center text-md">
+      <ul className="flex flex-row gap-5 justify-between items-center text-md">
         <li className="flex flex-row px-2 py-1 items-center gap-1 text-lg bg-white/10 rounded-md hover:bg-white/20 cursor-pointer">
           <BiBarChartSquare />
           <span className="hidden md:block"> Report</span>
