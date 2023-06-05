@@ -43,11 +43,11 @@ export default function Auth() {
           email,
           password,
         });
-        setEmail("");
-        setPassword("");
       } catch (error) {
         console.log(error);
       }
+      setEmail("");
+      setPassword("");
     },
     [email, password]
   );
@@ -76,6 +76,7 @@ export default function Auth() {
               </label>
               <input
                 onChange={(e) => setEmail(e.target.value)}
+                value={email}
                 className=" bg-gray-200 outline-none py-3 rounded-md px-4"
                 placeholder="example@mail.com"
                 type="email"
@@ -87,6 +88,7 @@ export default function Auth() {
               </label>
               <input
                 onChange={(e) => setPassword(e.target.value)}
+                value={password}
                 className=" bg-gray-200 outline-none py-3 rounded-md px-4"
                 type="password"
               />
